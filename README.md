@@ -61,6 +61,8 @@ step to activate your virtualenv.
 
 ```
 $ source .venv/bin/activate
+
+# for other shells like fish, you can do source .venv/bin/activate.fish
 ```
 
 If you are a Windows platform, you would activate the virtualenv like this:
