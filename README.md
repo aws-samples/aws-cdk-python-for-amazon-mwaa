@@ -28,8 +28,10 @@ NOTE:
 
 ### Pre-requisites:
 
-* Since this is a [TypeScript](https://www.typescriptlang.org/) CDK project, you should have [npm](https://www.npmjs.com/) installed (which is the package manager for TypeScript/JavaScript).
+* Since this is a CDK project, you should have [npm](https://www.npmjs.com/) installed (which is the package manager for TypeScript/JavaScript).
     * You can find installation instructions for npm [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+
+* Install CDK via `npm install -g aws-cdk`.
 
 * Install [AWS CLI](https://aws.amazon.com/cli/) on your computer (*if not already done so*).
     *  `pip install awscli`. This means need to have python installed on your computer (if it is not already installed.)
