@@ -351,7 +351,7 @@ class AwsCdkPythonForAmazonMwaaStack(Stack):
             webserver_access_mode="PUBLIC_ONLY",
             execution_role_arn=mwaa_service_role.role_arn,
             dag_s3_path="dags",
-            requirements_s3_path="requires/requirements-2024-01-12-1518.txt",
+            requirements_s3_path="requires/requirements-2024-03-11-1101.txt",
             network_configuration=mwaa.CfnEnvironment.NetworkConfigurationProperty(
                 subnet_ids=private_subnet_ids,
                 security_group_ids=[mwaa_sec_group.security_group_id]
